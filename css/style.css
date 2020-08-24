@@ -4,3 +4,25 @@
     margin: 0 auto;
 
 }
+
+.container{
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.my-row{
+
+    /* border: 3px solid black; */
+    height: 500px;
+
+}
+
+.my-col{
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(95, 95, 95);
+    font-family: 'Courier New', Courier, monospace;
+    /* border: 3px solid black; */
+
+}
