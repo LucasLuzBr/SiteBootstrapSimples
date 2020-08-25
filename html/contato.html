@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap-4.5.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Contato</title>
+</head>
+<body>
+    <div class="" id=''>
+
+        <div id = "msg-erro" class = "alert alert-danger msg">
+            <label>Preencha os campos corretamente!</label>
+          </div> 
+    
+          <div id = "msg-sucesso" class = "alert alert-success msg">
+            <label>Mensagem enviada com sucesso!</label>
+          </div> 
+
+          <div class="container rounded shadow-lg p-3 mb-5 bg-white rounded w-50 p-3" id='divCampos'>
+
+            <h4>Cálculo do Salário do Funcionario</h4>
+
+            <label>Nome</label>
+            <input class="form-control" type="text" placeholder="Nome" id="name"><br>
+
+            <label>Data</label>
+            <input class="form-control" type="text" placeholder="Data" id="date"><br>
+
+            <label>E-mail</label>
+            <input class="form-control" type="text" placeholder="E-mail" id="e-mail"><br>
+
+            <label>Telefone</label>
+            <input class="form-control" type="text" placeholder="Telefone" id="telephone"><br>
+
+            <label>Campo para contato</label>
+            <textarea class="form-control" id="textArea" rows="5"></textarea><br>
+
+            <button type="button" class="btn btn-secondary btn-sm" onclick="submit()">Enviar</button>
+            <button type="button" class="btn btn-secondary btn-sm" onclick="clean()">Limpar</button>
+
+          </div>
+
+    </div>
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../bootstrap-4.5.2-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
